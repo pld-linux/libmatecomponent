@@ -1,0 +1,11 @@
+--- libmatecomponent-1.4.0/tests/Makefile.am.orig	2012-07-05 19:06:42.000000000 +0200
++++ libmatecomponent-1.4.0/tests/Makefile.am	2014-01-10 16:09:12.679875465 +0100
+@@ -55,7 +55,7 @@
+ 	MODELS_DIR="$(srcdir)/models"
+ 
+ TESTS = test-moniker$(EXEEXT) test-event-source$(EXEEXT) test-object$(EXEEXT) \
+-	test-stream-mem$(EXEEXT) $(srcdir)/test-properties.sh test-storage-mem$(EXEEXT) \
++	test-stream-mem$(EXEEXT) test-properties.sh test-storage-mem$(EXEEXT) \
+ 	test-main-loop$(EXEEXT)
+ 
+ # TESTS += test-generic-factory.sh

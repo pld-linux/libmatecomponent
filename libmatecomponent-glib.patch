@@ -1,0 +1,10 @@
+--- libmatecomponent-1.4.0/activation-server/Makefile.am.orig	2012-07-05 19:06:42.000000000 +0200
++++ libmatecomponent-1.4.0/activation-server/Makefile.am	2014-01-10 20:14:11.579258607 +0100
+@@ -17,7 +17,6 @@
+ 	$(SERVER_CFLAGS)			\
+ 	$(WARN_CFLAGS)				\
+ 	-DSERVER_CONFDIR=\"$(sysconfdir)\"	\
+-	-DG_DISABLE_DEPRECATED			\
+ 	-DG_LOG_DOMAIN=\"MateComponent-Activation-Server\" \
+ 	$(NULL)
+ 
