@@ -21,7 +21,7 @@ BuildRequires:	automake >= 1:1.9
 BuildRequires:	bison
 BuildRequires:	docbook-dtd412-xml
 BuildRequires:	flex
-BuildRequires:	gettext-devel >= 0.10.40
+BuildRequires:	gettext-tools >= 0.10.40
 BuildRequires:	glib2-devel >= 1:2.26.0
 BuildRequires:	gtk-doc >= 1.0
 BuildRequires:	intltool >= 0.35.0
